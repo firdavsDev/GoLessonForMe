@@ -1,0 +1,70 @@
+This folder for learn Go lang and create some project for learn it.
+
+Question: How to create a new project in Go lang?
+Answer:
+1. Create a new folder for your project.
+2. Create a new file with name main.go
+3. Write code in main.go file.
+4. Open terminal and go to your project folder.
+5. Write command: go run main.go
+6. If you want to create a executable file, write command: go build main.go
+7. Now you can run your executable file.
+
+Question: What is the difference between go run and go build?
+Answer:
+go run: run your code and create a executable file.
+go build: create a executable file.
+
+Question: What is executable file?
+Answer:
+Executable file is a file that can run in your computer.
+
+Question: How to run executable file?
+Answer:
+Open terminal and go to your project folder.
+Write command: ./main
+
+Question: What is the main difference between GO and Python?
+Answer:
+In Python, you can write code in one file and run it.
+In GO, you must write code in main.go file and run it. If you want to write code in another file, you must import it in main.go file. And you can run it.
+
+Question: How to import a file in GO?
+Answer:
+Write this code in main.go file:
+import "file_name"
+
+Question: How to create a variable in GO?
+Answer:
+Write this code in main.go file:
+var variable_name type
+
+Question: Data types in GO?
+Answer:
+string
+int
+float64
+bool
+
+Question: How to create a constant in GO?
+Answer:
+Write this code in main.go file:
+const constant_name type
+
+Question: How to create a function in GO?
+Answer:
+Write this code in main.go file:
+func function_name() type {
+    // code
+}
+
+Question: What is the struct?
+Answer:
+Struct is a data type that can contain many data types.
+
+Question: How to create a struct in GO?
+Answer:
+Write this code in main.go file:
+type struct_name struct {
+    // code
+}
