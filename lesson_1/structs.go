@@ -2,9 +2,14 @@ package main
 
 import "fmt"
 
-func main() {
-	my_bill := NewBill("my bill") // my_bill is a value of type Bill
+// go run structs.go structs_bill.go
 
-	fmt.Println(my_bill)
-	fmt.Println(my_bill.total())
+func main() {
+
+	mybill := createBill()
+
+	promtOptions(mybill)
+
+	fmt.Println(mybill)
+
 }
